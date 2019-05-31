@@ -1,6 +1,24 @@
 
-# Created by https://www.gitignore.io/api/node,vuejs
-# Edit at https://www.gitignore.io/?templates=node,vuejs
+# Created by https://www.gitignore.io/api/node,vuejs,nativescript
+# Edit at https://www.gitignore.io/?templates=node,vuejs,nativescript
+
+### NativeScript ###
+/platforms
+/hooks
+/node_modules
+/lib
+/debugger
+/dist
+
+/app/**/*.map
+# shouldn't ignore this for vanilla nativescript
+# /app/**/*.js
+
+.DS_Store
+**/*.log
+tags
+
+ers.txt
 
 ### Node ###
 # Logs
@@ -95,4 +113,4 @@ dist/
 npm-debug.log
 yarn-error.log
 
-# End of https://www.gitignore.io/api/node,vuejs
+# End of https://www.gitignore.io/api/node,vuejs,nativescript
